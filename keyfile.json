@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "maintenance-dylan-manon",
+  "private_key_id": "09400356e3e3ebba3624872ba7b0f265f5147a41",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDh+gNCMpQLKxHJ\nby3KGR/d2WraNmtC3DrhidaCPhTCqRP+H/blkqKkoWNXMi95ZTeoF/KPLUS1009G\nF0DyotrRGWTsTZcP4pA6DxbuUoN58m71zGtimZLK4vhPCWlhcfBkXUT/8ea+tsh5\nZtzVvRl/dHoYvbPDGPfRT2F5ubtmj3hV1MwjNba0UfPXxNBVErbF1TpK7yZtIGLB\n7afxML5kNDFs7JtV/VaKbCHBmzXKoEidaWz0uzxSEVaC3bvlJMcrD/9ytUR/UZr0\nP5d0wEIxfaSTbfsfqjVJCi+PnsuYhA+78wcM/NiZ6GJh8w/TMtjqgTiX5U6heD0V\nHVMSAmahAgMBAAECggEAPDa5XY9KoXs1fx5P7jUpp5zCeyjbBfLXAbgP356ZO5GA\nEUwFJwEes42JgfeObOOKpBDVgk9GqsiGrB+QH9dDRUpl+Q1nvkTZt47DxndYL0tp\nQ7fXuWtAkS1Piwfv+5Y3vxaXRzf3C0R7QNYm7BE6VRr9WdBasRbbGfvz9lKGW/pI\nmh1y/nohN7Mb9jDImOyNcMu0xSv5rh5RQNDuWY6NXXL38vCiXFFZBQDhYyTSED25\n/YGvhJOFgiFQFhgWNe5yK/4r9BT9qgscrFWxUtGy+hImbQLPgSqZOksZRBaOyQM4\n/E0ztMfNib/Lsqr81ubTdLFWHZ2BMPaNbVvk///qXQKBgQD1l5NEYJdsNtMM8ppG\n1lpMW4WO3jZOuXA7NAFRItke5VPKV4rW9PuXmXRKpUYxE3xBVvatM/Ttf0XghtkC\n0Ko4pTidzn17cjNncg8uLqoHdsGgemovid4xPvBcl9z/n+ypvc1BvA51MzA+kByP\nDnZJUehtqwj/dz7fdLUmsqln5wKBgQDrjaEjbmW1o7VaPzV9q0TC0m+awjDoFwV3\nvYFlJozh44Y2EDLSoPTEZ3Z+QjlaT8s7ZrQ7ox4lk5XZAPxKDFVC4z8+xv3AeZKd\n8fLCEuyzrJnLFZS90fVSFqyLIhivlO+AnxtZAvMTHgwD8WeRDpEp0l+MxPZ6ue+B\nTyxuKofMNwKBgQDebQAgroaVqHWuxU36mApCG6WzhgeTdxlxVSFYNYKFG9eua2jA\nVDJE0+Nh85vFuMsRdkyFA4hxTJKhzh9fEFMKaIEFU02MbxqlNsUO4450ohatXBEt\nquTEnyccBSJPlazG8rKiNUq21Lx9/REQc12n+/nQ0VWd4Ybc5JtoR+lrwwKBgE3H\nTlXsthjsHY3XIUqFqwbJhaCMTqnUMDIBmSBVQl+0STTA1IdILopLv4yhQV7Yyjqr\nBwhKLEIsIWauNKAewmh7sP6BpnhPrGIK6iW7Kf2KGJ4+WgbztRWN9xtZ/ty7SPon\nj1gs6SZ+3WjP5Wq4bKZqmLJatyh/DN6dzgXydTSxAoGBANizHhucBuL7ljbI+Iy0\nsSLjVyggD5R/CTszEvObRhtrJH9Ccp41UwO6sb1JWkhz3r2Kt9j8kvitqni0cKZz\nRW0XyCFyEnHaM47zmhiyZprtx56+Yl3YcfXBrRrC0ChdBX3Zj1IbUtb2EFkfEf2J\nDUbk+oFvpLWapoerw2RGaNk5\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-86f56@maintenance-dylan-manon.iam.gserviceaccount.com",
+  "client_id": "112421869187313626559",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-86f56%40maintenance-dylan-manon.iam.gserviceaccount.com"
+}
