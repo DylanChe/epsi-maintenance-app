@@ -49,7 +49,7 @@
             <nav class="mt-2">
                 <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                     <li class="nav-item">
-                        <a href="index.php" class="nav-link active">
+                        <a href="index.php" class="nav-link">
                             <i class="nav-icon fas fa-th"></i>
                             <p>
                                 Accueil
@@ -57,7 +57,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="drinks.php" class="nav-link">
+                        <a href="drinks.php" class="nav-link active">
                             <i class="nav-icon fas fa-th"></i>
                             <p>
                                 Liste des boissons
@@ -78,11 +78,12 @@
             <div class="container-fluid">
                 <div class="row mb-2">
                     <div class="col-sm-6">
-                        <h1>Accueil</h1>
+                        <h1>Liste des boissons</h1>
                     </div>
                     <div class="col-sm-6">
                         <ol class="breadcrumb float-sm-right">
-                            <li class="breadcrumb-item active">Accueil</li>
+                            <li class="breadcrumb-item"><a href="#">Accueil</a></li>
+                            <li class="breadcrumb-item active">Liste des boissons</li>
                         </ol>
                     </div>
                 </div>
@@ -92,7 +93,37 @@
         <!-- Main content -->
         <section class="content">
 
+            <!-- Default box -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card card-primary">
 
+                            <div class="card-body">
+                                <div>
+                                    <div class="filter-container p-0 row" style="padding: 3px; position: relative; width: 100%; display: flex; flex-wrap: wrap; height: 441px;">
+                                        <div class="filtr-item col-sm-2 border" data-category="1" data-sort="white sample" style="opacity: 1; transform: scale(1) translate3d(0px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; width: 223.4px; transition: all 0.5s ease-out 0ms, width 1ms ease 0s;">
+                                            <a href="https://via.placeholder.com/1200/FFFFFF.png?text=1" data-toggle="lightbox" data-title="sample 1 - white">
+                                                <h1 class="text-center">Coca</h1>
+                                                <img src="https://via.placeholder.com/300/FFFFFF?text=1" class="img-fluid mb-2" alt="white sample">
+                                            </a>
+                                        </div>
+                                        <div class="filtr-item col-sm-2 border" data-category="2" data-sort="black sample" style="opacity: 1; transform: scale(1) translate3d(226px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; width: 223.4px; transition: all 0.5s ease-out 0ms, width 1ms ease 0s;">
+                                            <a href="https://via.placeholder.com/1200/FFFFFF.png?text=2" data-toggle="lightbox" data-title="sample 2 - black">
+                                                <h1 class="text-center">Fanta</h1>
+                                                <img src="https://via.placeholder.com/300/FFFFFF?text=2" class="img-fluid mb-2" alt="black sample">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- /.card -->
 
         </section>
         <!-- /.content -->
