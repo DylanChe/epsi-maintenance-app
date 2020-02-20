@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/DylanChe/epsi-maintenance-app/issues"
   },
-  "homepage": "https://github.com/DylanChe/epsi-maintenance-app#readme"
+  "homepage": "https://github.com/DylanChe/epsi-maintenance-app#readme",
+  "dependencies": {
+    "admin-lte": "^3.0.2"
+  }
 }
