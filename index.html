@@ -15,42 +15,6 @@
     <link rel="stylesheet" href="node_modules/admin-lte/dist/css/adminlte.min.css">
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
-
-    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-app.js"></script>
-
-    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-firestore.js"></script>
-
-    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-analytics.js"></script>
-
-    <script>
-
-        // Your web app's Firebase configuration
-        var firebaseConfig = {
-            apiKey: "AIzaSyBYjaUYET4b0-YGDXEOmyIH7g4MYvaoIAg",
-            authDomain: "projetmaintenance-9e701.firebaseapp.com",
-            databaseURL: "https://projetmaintenance-9e701.firebaseio.com",
-            projectId: "projetmaintenance-9e701",
-            storageBucket: "projetmaintenance-9e701.appspot.com",
-            messagingSenderId: "654449409599",
-            appId: "1:654449409599:web:b9d5d2bbb4966318b2c28a",
-            measurementId: "G-9THVN0TCRK"
-        };
-        // Initialize Firebase
-        firebase.initializeApp(firebaseConfig);
-        firebase.analytics();
-
-        var db = firebase.firestore();
-
-        var boissons = new Array();
-
-        db.collection("boissons").get().then((querySnapshot) => {
-            querySnapshot.forEach((doc) => {
-                boissons.push([doc.id, doc.data()["marque"], doc.data()["quantite"], doc.data()["prix"]]);
-            });
-        });
-
-        console.log(boissons);
-    </script>
 </head>
 <body class="hold-transition sidebar-mini">
 <!-- Site wrapper -->
